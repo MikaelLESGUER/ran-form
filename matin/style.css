@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.blue {
+    color: #24527c;
+}
+
+.headerBlue {
+    height: 150px;
+    width: auto;
+    background-color : #24527c;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleHeader, .subtitleHeader {
+    width:auto;
+    padding: 15px;
+}
+
+.titleHeader{
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.h2Title {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col {
+    padding: 30px;
+}
+
+ul {
+    margin-left: 32px;
+}
